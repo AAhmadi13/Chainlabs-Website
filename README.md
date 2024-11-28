@@ -13,7 +13,7 @@ Core Functionality:
 
 * **Interactive Experiments:** A collection of engaging experiments that demonstrate the power of web technologies.
 * **Responsive Design:** Adapts to different screen sizes for optimal viewing on various devices.
-* **User-Friendly Interface:** Intuitive navigation and clear labeling for easy exploration.
+* **User-Friendly Interface:** Intuitive navigation and clear labelling for easy exploration.
 
 Technical Implementation:
 
@@ -24,7 +24,7 @@ Technical Implementation:
 <br> Explanation:
 
 1. **Website Structure:** The HTML structure outlines the overall layout of the website, including the header, navigation bar, main content area, and footer.
-2. **Visual Design:** The CSS stylesheet defines the colors, fonts, and spacing used throughout the website, ensuring a consistent and visually appealing design.
+2. **Visual Design:** The CSS stylesheet defines the colours, fonts, and spacing used throughout the website, ensuring a consistent and visually appealing design.
 3. **Interactive Elements:** JavaScript code is used to create interactive elements such as sliders, buttons, and animations, enhancing the user experience.
 
 <br> Overview:
