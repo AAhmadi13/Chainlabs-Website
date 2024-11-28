@@ -3,8 +3,7 @@
 // Author: Adam H. Ahmadi 2nd Year Computer Science Student // <br> <br>
 // Warning: Viewing allowed; changes, distribution, or use need author’s permission // 
 
-<br> Chain-Labs Website
-
+<br> 
 Project Chain-Labs Website Overview The Chain-Labs website is a dynamic web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface for exploring and interacting with a variety of digital experiments and interactive projects. The website is designed to be visually appealing, responsive, and accessible to users of all technical backgrounds.
 
 <br> Features:
