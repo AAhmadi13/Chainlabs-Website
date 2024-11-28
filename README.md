@@ -1,4 +1,4 @@
-**# Chain-Labs Website**
+# Chain-Labs Website
 
 // Author: Adam H. Ahmadi 2nd Year Computer Science Student // <br> <br>
 // Warning: Viewing allowed; changes, distribution, or use need author’s permission // 
