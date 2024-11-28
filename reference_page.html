@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+<!-- Author: Adam H. Ahmadi Copyright: Copyright 2024 -->
+
+<!-- NAVBAR -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="index.html">CHAINLABS.</a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn"><img src="./images/dropdown.png" alt="Dropdown Menu Icon" >
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_page.html">About</a></li>
+        <li><a href="history_page.html">History</a></li>
+        <li><a href="contact_page.html">Contact</a></li>
+        <li><a href="reference_page.html">References</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+<!-- Reference Hyperlinks -->
+
+<div class="banner"></div>
+  <div class="about">
+  <div class="content">
+  <div class="title">References</div>
+ 
+  <br><h2>Videos</h2><br>
+ 
+  <li>https://youtu.be/sTFZras-1Lo?si=CFMMoWlgBqJzUhfl</li><br>
+  <li>https://www.youtube.com/watch?v=ZbHLNinXy9E&ab_channel=BinanceAcademy</li><br>
+  <li>https://www.youtube.com/watch?v=aQWflNQuP_o</li><br>
+  
+  <br><h2>Images</h2><br>
+  <li>https://lovepik.com/image-401704054/white-line.html</li><br>
+  <li>https://www.pexels.com/photo/close-up-shot-of-bitcoins-buried-in-the-ground-5980924/</li><br>
+  <li>https://www.hiclipart.com/free-transparent-background-png-clipart-dwzwi/download</li><br>
+
+  <br><h2>Other</h2><br>
+  <li>https://www.investopedia.com/terms/b/blockchain.asp</li><br>
+  <li>https://www.geeksforgeeks.org/history-of-blockchain/</li>
+
+</div>
+  </div>
+
+  <!-- FOOTER --> 
+
+  <body>
+    <footer>
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About Us</div>
+            <p>Our mission is to be your gateway to understanding and harnessing the power of blockchain technology. We are dedicated to providing you with the knowledge, tools, and resources to navigate this revolutionary landscape. Whether you're a seasoned blockchain enthusiast or just beginning to explore the possibilities, we aim to be your trusted source of information and guidance.</p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact Us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+44 07568 713106</a>
+            </div>
+            <div class="email">
+              <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=[AdamAhmadi342@gmail.com]"><i class="fas fa-envelope"></i>AdamAhmadi342@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div class="topic">Information</div>
+          <div><a href="index.html">Home</a></div>
+          <div><a href="about_page.html">About</a></div>
+          <div><a href="history_page.html">History</a></div>
+          <div><a href="contact_page.html">Contact</a></div>
+          <div><a href="reference_page.html">References</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Newsletter</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address">
+            <input type="submit" name="" value="Send">
+          </form>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright © 2023 <a href="#">Chainlabs.</a> All Rights Reserved.</p>
+      </div>
+    </footer>
+
+<!-- JavaScript -->
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menu = document.querySelector(".menu-list");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      menu.classList.add("active");
+      menuBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+      body.classList.add("disabledScroll");
+    }
+    cancelBtn.onclick = ()=>{
+      menu.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      body.classList.remove("disabledScroll");
+    }
+
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+</body>
+</html>
